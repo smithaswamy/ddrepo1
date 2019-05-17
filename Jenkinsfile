@@ -8,7 +8,8 @@ agent none
      }       
   }       
   steps {
-       sh 'mvn clean install'
+       sh 'mvn --version'
+       echo "printing"
        }
      }
    }
